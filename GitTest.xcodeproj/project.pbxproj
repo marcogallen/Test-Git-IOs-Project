@@ -21,6 +21,7 @@
 		420CD2691935883900352117 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420CD24B1935883900352117 /* UIKit.framework */; };
 		420CD2711935883900352117 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 420CD26F1935883900352117 /* InfoPlist.strings */; };
 		420CD2731935883900352117 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 420CD2721935883900352117 /* GitTestTests.m */; };
+		420CD27E19358C0200352117 /* KDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 420CD27D19358C0200352117 /* KDTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		420CD26E1935883900352117 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		420CD2701935883900352117 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		420CD2721935883900352117 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		420CD27C19358C0200352117 /* KDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDTest.h; sourceTree = "<group>"; };
+		420CD27D19358C0200352117 /* KDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		420CD23B1935883900352117 = {
 			isa = PBXGroup;
 			children = (
+				420CD27C19358C0200352117 /* KDTest.h */,
+				420CD27D19358C0200352117 /* KDTest.m */,
 				420CD24D1935883900352117 /* GitTest */,
 				420CD26C1935883900352117 /* GitTestTests */,
 				420CD2461935883900352117 /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				420CD25E1935883900352117 /* KDViewController.m in Sources */,
 				420CD2541935883900352117 /* main.m in Sources */,
+				420CD27E19358C0200352117 /* KDTest.m in Sources */,
 				420CD2581935883900352117 /* KDAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
